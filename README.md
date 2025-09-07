@@ -9,7 +9,7 @@
 
 ### Installation script
 
-> [!WARNING]
+> [!CAUTION]
 > Don’t forget to change `<your_username>` to your actual username on your mac.
 > 
 > To find this run:
@@ -90,3 +90,6 @@ brew install go
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 ```
+
+> [!NOTE]
+> When changing the location of the above setup, please remember to update the [master doc](https://docs.google.com/document/d/1RH1MY--qGnjWJUDGOk4roouI2Si2U9dcbmA4wWa08UY/edit?tab=t.tdacod3gtocz#heading=h.nmgq5tlz1i6w).
