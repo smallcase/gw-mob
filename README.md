@@ -10,7 +10,8 @@
 ### Installation script
 
 > [!WARNING]
-> Don’t forget to change `<your_username>` to your actual username on your mac
+> Don’t forget to change `<your_username>` to your actual username on your mac.
+> 
 > To find this run:
 > ```bash
 > cd ~ && pwd
