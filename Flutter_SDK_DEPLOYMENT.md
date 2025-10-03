@@ -34,7 +34,7 @@ flutter build ipa --release
 
 ### 3. Distribute Internally
 
-- Share APK/IPA via Slack, Drive, or MDM tool
+- Share APK/IPA via Slack/Firebase App Distribution, Drive, or MDM tool
 - Notify QA team for testing
 
 ---
