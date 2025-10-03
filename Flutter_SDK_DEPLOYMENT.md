@@ -14,7 +14,7 @@ Production releases are published to Pub.dev following the full S.O.P. workflow.
 
 ## Internal Release (APK / IPA Generation)
 
-⚡ Use this for generating **internal builds** for QA/testing.
+Use this for generating **internal builds** for QA/testing.
 
 ### 1. Generate Android Release APK
 
