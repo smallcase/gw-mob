@@ -107,7 +107,6 @@ cd android && ./gradlew assembleRelease
    - Ensure all checks pass
    - Merge PR
    - Wait for merge workflow to complete
-   - Delete release branch
 
 ### Phase 5: Publish
 
@@ -121,5 +120,4 @@ cd android && ./gradlew assembleRelease
 
 9. **Post-Release**
    - Verify NPM publication
-   - Create GitHub Release
    - Create backmerge PR from `prod` → `dev`
