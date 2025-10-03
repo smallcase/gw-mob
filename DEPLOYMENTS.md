@@ -58,8 +58,13 @@ This document explains how to create production releases for the React Native mo
 ### Phase 5: Publish
 
 8. **Publish to NPM**
+
    - Go to **Github Actions** tab
    - Select **Publish to NPM** workflow
    - Click **Run workflow**
    - Select `prod` branch
    - Click **Run workflow**
+
+9. **Post-Release**
+   - Verify NPM publication
+   - Create backmerge PR from `prod` → `dev`
