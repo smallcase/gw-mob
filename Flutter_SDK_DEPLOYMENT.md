@@ -34,8 +34,14 @@ flutter build ipa --release
 
 ### 3. Distribute Internally
 
+**Ideal Process (Bitrise Workflow):**
+
+- Use Bitrise automated workflow for internal distribution
+- Bitrise will automatically build and distribute to configured channels
+
+**Fallback Process (Manual Distribution):**
+
 - Share APK/IPA via Slack/Firebase App Distribution, Drive, or MDM tool
-- Notify QA team for testing
 
 ---
 
@@ -53,6 +59,11 @@ flutter build ipa --release
 
 2. **Apply Changes**
    - Update native dependencies if needed
+      For IOS:
+     ```bash
+     cd ios
+     pod update
+     ```
    - Manually update version in `pubspec.yaml`
    - Commit changes
 

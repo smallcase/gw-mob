@@ -63,6 +63,11 @@ cd android && ./gradlew assembleRelease
 2. **Apply Native Changes**
    - Update native iOS/Android dependencies if needed
    - Sync native module versions
+   For IOS:
+     ```bash
+     cd ios
+     pod update
+     ```
    - Commit all changes
 
 ### Phase 2: Version Bump & Changelog
