@@ -59,7 +59,7 @@ flutter build ipa --release
 
 2. **Apply Changes**
    - Update native dependencies if needed
-      For IOS:
+     For IOS:
      ```bash
      cd ios
      pod update
