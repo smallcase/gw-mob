@@ -36,7 +36,7 @@ cd android && ./gradlew assembleRelease
 
 1. Open the project workspace: `ios/{AppName}.xcworkspace`
 2. Archive the app
-3. Export IPA using Ad Hoc or Development distribution
+3. Export IPA using Ad Hoc or Release Testing distribution
 4. Save the `.ipa` file locally
 
 **Output location:** Selected export path (Archives stored at `~/Library/Developer/Xcode/Archives/`)
