@@ -32,15 +32,15 @@ echo >> $USER_DIR/.zshrc
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ## Add homebrew shellenv evalutaion to the top of the .zprofile
 ## This will help homebrew setup the $PATH before the shell starts
-'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $USER_DIR/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $USER_DIR/.zprofile
 ## Run this to get the homebrew packages available in the current terminal session
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install ruby
 brew install ruby
-'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
-'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
-'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+echo 'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
+echo 'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
 # If xcode command line tools fails during pos install, run
 # sudo xcode-select --reset
 
