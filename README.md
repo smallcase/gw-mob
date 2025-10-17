@@ -66,23 +66,23 @@ brew install --cask pritunl
 # Install JetBrains Toolbox
 brew install --cask jetbrains-toolbox
 ## Set JetBrains' toolbox scripts in PATH
-'export PATH="$HOME/Library/Application Support/JetBrains/Toolbox/scripts:$PATH"' >> $USER_DIR/.zshrc
+echo 'export PATH="$HOME/Library/Application Support/JetBrains/Toolbox/scripts:$PATH"' >> $USER_DIR/.zshrc
 
 ## Install the latest Android Studio from the toolbox and install the JBR Java version 11 || 17
 ## Set JAVA_HOME from JetBrains runtime (make sure to install the `jbr-17.0.14` version from Android Studio)
-'export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home"' >> $USER_DIR/.zshrc
+echo 'export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/jbr-17.0.14/Contents/Home"' >> $USER_DIR/.zshrc
 
 ## Set Android related env PATHS
-'export ANDROID_HOME="$HOME/Library/Android/sdk"' >> $USER_DIR/.zshrc
-'export PATH="$PATH:$ANDROID_HOME/platform-tools"' >> $USER_DIR/.zshrc
-'export PATH="$PATH:$ANDROID_HOME/tools"' >> $USER_DIR/.zshrc
-'export PATH="$PATH:$ANDROID_HOME/tools/bin"' >> $USER_DIR/.zshrc
-'export PATH="$PATH:$ANDROID_HOME/emulator"' >> $USER_DIR/.zshrc
+echo 'export ANDROID_HOME="$HOME/Library/Android/sdk"' >> $USER_DIR/.zshrc
+echo 'export PATH="$PATH:$ANDROID_HOME/platform-tools"' >> $USER_DIR/.zshrc
+echo 'export PATH="$PATH:$ANDROID_HOME/tools"' >> $USER_DIR/.zshrc
+echo 'export PATH="$PATH:$ANDROID_HOME/tools/bin"' >> $USER_DIR/.zshrc
+echo 'export PATH="$PATH:$ANDROID_HOME/emulator"' >> $USER_DIR/.zshrc
 
 # Install Volta
 brew install volta
 ## Set Volta bin in PATH
-'export PATH="$HOME/.volta/bin:$PATH"' >> $USER_DIR/.zshrc
+echo 'export PATH="$HOME/.volta/bin:$PATH"' >> $USER_DIR/.zshrc
 
 # Install Go
 brew install go
